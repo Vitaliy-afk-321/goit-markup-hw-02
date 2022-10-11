@@ -1,0 +1,81 @@
+:root {
+    --maincolor: #212121;
+    --bluecolor: #2196F3;
+    --blackcolor: #000000;
+    --graycolor: #757575;
+    --whitecolor: #ffffff;
+    --adresscolor: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+body {
+    font-family:"Roboto", serif;
+    color: var(--maincolor);
+}
+
+
+    /* header */
+
+.header_logo_web{
+    color: var(--bluecolor);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.header_logo,
+.footer_l{
+    color: var(--blackcolor);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.header_list_l{
+    color: var(--blackcolor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header_nav_l_link{
+    color: var(--bluecolor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header_nav_l_tel{
+    color: var(--graycolor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header_nav_l_link:hover,
+.header_nav_l_link:focus,
+.header_nav_l_tel:hover,
+.header_nav_l_tel:focus,
+.header_item_l:hover,
+.header_item_l:focus,
+.footer_list_adr:hover,
+.footer_list_adr:focus,
+.footer_list_mail:hover,
+.footer_list_mail:focus,
+.footer_list_tel:hover,
+.footer_list_tel:focus,
+.progect_list_b:hover,
+.progect_list_b:focus,
+.active-link {
+    color: var(--bluecolor);
+}
+/* Images */
