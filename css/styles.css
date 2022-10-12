@@ -5,6 +5,8 @@
     --graycolor: #757575;
     --whitecolor: #ffffff;
     --adresscolor: rgba(255, 255, 255, 0.6);
+    --buttoncolor: #F5F4FA;
+    --bgcolorfooter: #2F303A;
 }
 
 .list {
@@ -15,8 +17,9 @@
     text-decoration: none;
 }
 body {
-    font-family:"Roboto", serif;
+    font-family:'Roboto', serif;
     color: var(--maincolor);
+    font-style: normal;
 }
 
 
@@ -47,7 +50,7 @@ body {
     letter-spacing: 0.02em;
 }
 .header_nav_l_link{
-    color: var(--bluecolor);
+    color: var(--graycolor);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,9 +76,76 @@ body {
 .footer_list_mail:focus,
 .footer_list_tel:hover,
 .footer_list_tel:focus,
-.progect_list_b:hover,
-.progect_list_b:focus,
 .active-link {
     color: var(--bluecolor);
 }
+/* Buttons */
+
+.progect_list_b{
+    color: var(--blackcolor) ; 
+    background-color: var(--buttoncolor);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    }
+
+.progect_list_b:hover,
+.progect_list_b:focus,
+.active-button {
+    color: var(--whitecolor);
+    background-color: var(--bluecolor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /* Images */
+.img_h2{
+    color: var(--maincolor);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.img_p{
+    color: var(--graycolor);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+/* Footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer_l{
+    color: var(--whitecolor);
+}
+.footer_list_adr{
+    color: var(--whitecolor);
+    font-style: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer_list_mail,
+.footer_list_tel{
+    font-style: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+}
