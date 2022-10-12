@@ -135,7 +135,7 @@ body {
 }
 .footer_list_adr{
     color: var(--whitecolor);
-    font-style: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -145,7 +145,7 @@ body {
 
 .footer_list_mail,
 .footer_list_tel{
-    font-style: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
