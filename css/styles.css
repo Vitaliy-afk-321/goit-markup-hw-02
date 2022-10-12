@@ -81,7 +81,8 @@ body {
 }
 /* Buttons */
 
-.progect_list_b{
+.progect_list_b,
+.progect_list_bi{
     color: var(--blackcolor) ; 
     background-color: var(--buttoncolor);
     cursor: pointer;
@@ -95,8 +96,11 @@ body {
     font-family: 'Roboto';
     }
 
+     
 .progect_list_b:hover,
 .progect_list_b:focus,
+.progect_list_bi:hover,
+.progect_list_bi:focus,
 .active-button {
     color: var(--whitecolor);
     background-color: var(--bluecolor);
@@ -148,4 +152,65 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
+}
+
+/* Main Index */
+
+h1 {
+    color: var(--whitecolor);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.section_h1{
+    background-color:var(--bgcolorfooter);
+}
+.progect_list_bi{
+    margin: 0 auto;
+    display: block;
+}
+.name_benef{
+     color: var(--maincolor);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.benef_txt{
+    color: var(--graycolor);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+} 
+.Whatwedo,
+.Ourteam{
+    color: var(--maincolor);
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.Ourteam_h3{
+    color: var(--maincolor);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.Ourteam_p{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team{
+background-color: var(--buttoncolor);
 }
