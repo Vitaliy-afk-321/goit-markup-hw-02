@@ -130,7 +130,7 @@ body {
 .active-button {
     color: var(--whitecolor);
     background-color: var(--activebutton);
-    box-shadow: box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: box-shadow 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 
@@ -154,7 +154,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #2F303A;
+    background-color:var(--bgcolorfooter);
 }
 
 .footer_l{
